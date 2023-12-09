@@ -1,0 +1,18 @@
+# IDE
+/.idea
+/.fleet
+/.vscode
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+composer.lock
+/vendor
+
+# Cache
+/.phpunit.cache
+.phpunit.result.cache
+
