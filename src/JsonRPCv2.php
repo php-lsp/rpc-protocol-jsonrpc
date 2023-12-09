@@ -320,7 +320,7 @@ final class JsonRPCv2 implements EncoderInterface, DecoderInterface
         }
 
         return $this->responses->createFailure(
-            $this->tryDecodeNullableId($data),
+            $this->tryDecodeNullableId($data['id'] ?? null),
             $data['error']['code'] ?? 0,
             $data['error']['message'] ?? '',
             $data['error']['data'] ?? null,
