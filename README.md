@@ -1,4 +1,4 @@
-# RPC JSON-RPC (v2) Protocol Implementation
+# JSON-RPC (v2) Protocol Implementation
 
 ---
 
